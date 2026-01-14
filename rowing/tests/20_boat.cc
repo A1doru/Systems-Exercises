@@ -113,7 +113,7 @@ TEST(excursion_with_non_existent_boat) {
 TEST(boat_with_multiple_excursions) {
     club * c = create_club();
     CHECK(c != nullptr);
-    unsigned int n = 3;
+    const unsigned int n = 3;
     CHECK_CMP(add_boat(c,"boat 1", n),==,1);
     char people[n][15] = {
         "person 1",
