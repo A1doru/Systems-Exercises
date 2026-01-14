@@ -1,0 +1,16 @@
+The exam starts tomorrow, Tuesday 3 September at 9:30. The text of the exam will be available on iCorsi at that time along with the submission form. This is an on-line written exam. I will be available on Teams to answer questions. You may send me questions using direct messages on Teams.
+
+Below are the general rules and instructions for this exam:
+
+    This is an individual exam. You must solve the exercises on your own. You may consult your notes or course material, as well as on-line documentation such as cppreference.com. However, you must acknowledge in writing, in comments within your code, any and all material or sources you consult during the exam.
+    Write and submit source files with the exact names specified in each exercise.
+    Your code must compile with the standard-configuration C/C++ compiler.
+    You may not use any external function other than those of the standard C/C++ library.
+    Your code must comply with the specification exactly.
+    Your code must be of good quality.
+    Your code must pass the tests! The tests are provided together with the problem descriptions.
+    Document any known issue using comments in the code
+    Submit each file through the iCorsi system.
+    The exam lasts two hours, so the deadline for submission is at 11:30.
+
+-Antonio

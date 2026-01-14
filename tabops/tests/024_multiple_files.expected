@@ -1,0 +1,436 @@
+genhtml_css_file  ->  gcov.css
+genhtml_dark_mode  ->  1
+genhtml_header  ->  Coverage report for my project
+genhtml_footer  ->  My footer text
+genhtml_hi_limit  ->  90
+genhtml_med_limit  ->  75
+ignore_errors  ->  empty,mismatch
+max_message_count  ->  100
+stop_on_error  ->  1
+rtl_file_extensions  ->  v,vh,sv,vhd?
+c_file_extensions  ->  h,c,i,C,H,I,cpp,hpp,icc,cc,hh,cxx,hxx
+filter_lookahead  ->  5
+filter_bitwise_conditional  ->  1
+genhtml_line_field_width  ->  12
+genhtml_branch_field_width  ->  16
+genhtml_owner_field_width  ->  20
+genhtml_age_field_width  ->  5
+genhtml_overview_width  ->  80
+genhtml_nav_resolution  ->  4
+genhtml_nav_offset  ->  10
+genhtml_keep_descriptions  ->  0
+genhtml_no_prefix  ->  0
+genhtml_no_source  ->  0
+genhtml_num_spaces  ->  8
+genhtml_highlight  ->  0
+genhtml_legend  ->  0
+genhtml_html_prolog  ->  FILE
+genhtml_html_epilog  ->  FILE
+genhtml_html_extension  ->  html
+genhtml_html_gzip  ->  1
+genhtml_sort  ->  1
+genhtml_hierarchical  ->  1
+genhtml_flat_view  ->  1
+genhtml_show_navigation  ->  1
+genhtml_show_function_proportion  ->  0
+genhtml_charset -> UTF-8
+genhtml_desc_html -> 0
+genhtml_precision -> 1
+genhtml_missed -> 1
+suppress_function_aliases  ->  1
+derive_function_end_line  ->  1
+derive_function_end_line  ->  1
+trivial_function_threshold  ->  5
+demangle_cpp  ->  c++filt
+genhtml_demangle_cpp_tool  ->  c++filt
+genhtml_demangle_cpp_params  ->  ""
+geninfo_gcov_tool  ->  gcov
+geninfo_adjust_testname  ->  0
+forget_testcase_names  ->  0
+checksum  ->  1
+geninfo_external  ->  1
+geninfo_compat_libtool  ->  0
+geninfo_gcov_all_blocks  ->  1
+geninfo_unexecuted_blocks  ->  0
+geninfo_compat  ->  libtool
+geninfo_adjust_src_path  ->  /tmp/build 
+geninfo_auto_base  ->  1
+geninfo_intermediate  ->  auto
+no_exception_branch  ->  0
+lcov_insmod_tool  ->  /sbin/insmod
+lcov_modprobe_tool  ->  /sbin/modprobe
+lcov_rmmod_tool  ->  /sbin/rmmod
+lcov_tmp_dir  ->  /tmp
+lcov_list_full_path  ->  0
+lcov_list_width  ->  80
+lcov_list_truncate_max  ->  20
+function_coverage  ->  1
+branch_coverage  ->  0
+lcov_fail_under_lines  ->  97.5
+genhtml_annotate_script  ->  path_to_my_executable
+genhtml_criteria_script  ->  path_to_my_executable
+criteria_callback_data  ->  date,owner
+criteria_callback_levels  ->  top,directory,file
+genhtml_date_bins  ->  7
+genhtml_date_bins  ->  30,180
+include  ->  my/files/*.c
+include  ->  my/files/*.h
+exclude  ->  your/files/*.c
+exclude  ->  your/files/*.h
+substitute  ->  s#/.libs##g
+substitute  ->  s#/tmp/build#/usr/src#g
+omit_lines  ->  .+?//\s*MY_LINE_EXCLUDE_MARKER\s*
+omit_lines  ->  .+?//\s*MY_PROJECT_EXCLUDE_MARKER\s*
+erase_functions  ->  main
+erase_functions  ->  debug)_.*\(int,\s*int\)
+version_script  ->  path_to_my_executable
+lcov_json_module  ->  auto
+parallel  ->  1
+memory  ->  1024
+split_char  ->  ,
+case_insensitive  ->  0
+lcov_excl_line  ->  LCOV_EXCL_LINE
+lcov_excl_br_line  ->  LCOV_EXCL_BR_LINE
+lcov_excl_exception_br_line  ->  LCOV_EXCL_EXCEPTION_BR_LINE
+lcov_excl_start  ->  LCOV_EXCL_START
+lcov_excl_stop  ->  LCOV_EXCL_STOP
+lcov_excl_br_start  ->  LCOV_EXCL_BR_START
+lcov_excl_br_stop  ->  LCOV_EXCL_BR_STOP
+lcov_excl_exception_br_start  ->  LCOV_EXCL_EXCEPTION_BR_START
+lcov_excl_exception_br_stop  ->  LCOV_EXCL_EXCEPTION_BR_STOP
+root:x:0: -> 
+bin:x:1: -> 
+daemon:x:2: -> 
+sys:x:3: -> 
+adm:x:4: -> 
+tty:x:5: -> 
+disk:x:6: -> 
+lp:x:7: -> 
+mem:x:8: -> 
+kmem:x:9: -> 
+cdrom:x:11: -> 
+mail:x:12: -> 
+man:x:15: -> 
+dialout:x:18: -> 
+floppy:x:19: -> 
+games:x:20: -> 
+tape:x:33: -> 
+video:x:39: -> 
+ftp:x:50: -> 
+lock:x:54: -> 
+audio:x:63: -> 
+users:x:100: -> 
+nobody:x:65534: -> 
+dbus:x:81: -> 
+apache:x:48: -> 
+utmp:x:22: -> 
+utempter:x:35: -> 
+tss:x:59:clevis -> 
+printadmin:x:999: -> 
+input:x:104: -> 
+kvm:x:36:qemu -> 
+render:x:105: -> 
+sgx:x:106: -> 
+systemd-journal:x:190: -> 
+systemd-coredump:x:998: -> 
+systemd-network:x:192: -> 
+systemd-oom:x:997: -> 
+systemd-resolve:x:193: -> 
+systemd-timesync:x:996: -> 
+qemu:x:107: -> 
+polkitd:x:114: -> 
+avahi:x:70: -> 
+brlapi:x:995: -> 
+dip:x:40: -> 
+geoclue:x:994: -> 
+nm-openconnect:x:993: -> 
+usbmuxd:x:113: -> 
+gluster:x:992: -> 
+jackuser:x:991: -> 
+rtkit:x:172: -> 
+pipewire:x:990: -> 
+saslauth:x:76:saslauth -> 
+chrony:x:989: -> 
+dnsmasq:x:988: -> 
+rpc:x:32: -> 
+rpcuser:x:29: -> 
+openvpn:x:987: -> 
+nm-openvpn:x:986: -> 
+colord:x:985: -> 
+unbound:x:984: -> 
+abrt:x:173: -> 
+flatpak:x:982: -> 
+gdm:x:42: -> 
+gnome-initial-setup:x:981: -> 
+vboxsf:x:980: -> 
+power:x:979: -> 
+sshd:x:74: -> 
+tcpdump:x:72: -> 
+plocate:x:978: -> 
+gamemode:x:977: -> 
+clevis:x:976: -> 
+dhcpcd:x:975: -> 
+usbmon:x:973: -> 
+openvswitch:x:972: -> 
+hugetlbfs:x:971:openvswitch -> 
+akmods:x:970: -> 
+bird:x:969: -> 
+wsdd:x:968: -> 
+gnome-remote-desktop:x:967: -> 
+passim:x:966: -> 
+stapusr:x:156: -> 
+stapsys:x:157: -> 
+stapdev:x:158: -> 
+stapunpriv:x:159:stapunpriv -> 
+Verbosity  ->  0
+Domain  ->  local.domain.edu
+No-Strip  ->  none
+Reformat-Group  ->  false
+Local-Realms  ->  
+Nobody-User  ->  nobody
+Nobody-Group  ->  nobody
+Method  ->  nsswitch
+GSS-Methods  ->  <alternate method list for translating GSS names>
+someuser@REALM  ->  localuser
+LDAP_server  ->  ldap-server.local.domain.edu
+LDAP_base  ->  dc
+LDAP_canonicalize_name  ->  true
+LDAP_people_base  ->  <LDAP_base>
+LDAP_group_base  ->  <LDAP_base>
+LDAP_follow_referrals  ->  true
+LDAP_use_ssl  ->  false
+LDAP_tls_reqcert  ->  "hard"
+LDAP_ca_cert  ->  /etc/ldapca.cert
+LDAP_sasl_mech  ->  <SASL mech>
+LDAP_sasl_realm  ->  <SASL realm>
+LDAP_sasl_authcid  ->  <SASL authcid>
+LDAP_sasl_authzid  ->  <SASL authzid>
+LDAP_sasl_secprops  ->  <secprops>
+LDAP_sasl_krb5_ccname  ->  <kerberos ticket cache>
+NFSv4_person_objectclass  ->  NFSv4RemotePerson
+NFSv4_name_attr  ->  NFSv4Name
+NFSv4_uid_attr  ->  UIDNumber
+GSS_principal_attr  ->  GSSAuthName
+NFSv4_acctname_attr  ->  uid
+NFSv4_group_objectclass  ->  NFSv4RemoteGroup
+NFSv4_gid_attr  ->  GIDNumber
+NFSv4_group_attr  ->  NFSv4Name
+NFSv4_member_attr  ->  memberUID
+genhtml_css_file  ->  gcov.css
+genhtml_dark_mode  ->  1
+genhtml_header  ->  Coverage report for my project
+genhtml_footer  ->  My footer text
+genhtml_hi_limit  ->  90
+genhtml_med_limit  ->  75
+ignore_errors  ->  empty,mismatch
+max_message_count  ->  100
+stop_on_error  ->  1
+rtl_file_extensions  ->  v,vh,sv,vhd?
+c_file_extensions  ->  h,c,i,C,H,I,cpp,hpp,icc,cc,hh,cxx,hxx
+filter_lookahead  ->  5
+filter_bitwise_conditional  ->  1
+genhtml_line_field_width  ->  12
+genhtml_branch_field_width  ->  16
+genhtml_owner_field_width  ->  20
+genhtml_age_field_width  ->  5
+genhtml_overview_width  ->  80
+genhtml_nav_resolution  ->  4
+genhtml_nav_offset  ->  10
+genhtml_keep_descriptions  ->  0
+genhtml_no_prefix  ->  0
+genhtml_no_source  ->  0
+genhtml_num_spaces  ->  8
+genhtml_highlight  ->  0
+genhtml_legend  ->  0
+genhtml_html_prolog  ->  FILE
+genhtml_html_epilog  ->  FILE
+genhtml_html_extension  ->  html
+genhtml_html_gzip  ->  1
+genhtml_sort  ->  1
+genhtml_hierarchical  ->  1
+genhtml_flat_view  ->  1
+genhtml_show_navigation  ->  1
+genhtml_show_function_proportion  ->  0
+genhtml_charset -> UTF-8
+genhtml_desc_html -> 0
+genhtml_precision -> 1
+genhtml_missed -> 1
+suppress_function_aliases  ->  1
+derive_function_end_line  ->  1
+derive_function_end_line  ->  1
+trivial_function_threshold  ->  5
+demangle_cpp  ->  c++filt
+genhtml_demangle_cpp_tool  ->  c++filt
+genhtml_demangle_cpp_params  ->  ""
+geninfo_gcov_tool  ->  gcov
+geninfo_adjust_testname  ->  0
+forget_testcase_names  ->  0
+checksum  ->  1
+geninfo_external  ->  1
+geninfo_compat_libtool  ->  0
+geninfo_gcov_all_blocks  ->  1
+geninfo_unexecuted_blocks  ->  0
+geninfo_compat  ->  libtool
+geninfo_adjust_src_path  ->  /tmp/build 
+geninfo_auto_base  ->  1
+geninfo_intermediate  ->  auto
+no_exception_branch  ->  0
+lcov_insmod_tool  ->  /sbin/insmod
+lcov_modprobe_tool  ->  /sbin/modprobe
+lcov_rmmod_tool  ->  /sbin/rmmod
+lcov_tmp_dir  ->  /tmp
+lcov_list_full_path  ->  0
+lcov_list_width  ->  80
+lcov_list_truncate_max  ->  20
+function_coverage  ->  1
+branch_coverage  ->  0
+lcov_fail_under_lines  ->  97.5
+genhtml_annotate_script  ->  path_to_my_executable
+genhtml_criteria_script  ->  path_to_my_executable
+criteria_callback_data  ->  date,owner
+criteria_callback_levels  ->  top,directory,file
+genhtml_date_bins  ->  7
+genhtml_date_bins  ->  30,180
+include  ->  my/files/*.c
+include  ->  my/files/*.h
+exclude  ->  your/files/*.c
+exclude  ->  your/files/*.h
+substitute  ->  s#/.libs##g
+substitute  ->  s#/tmp/build#/usr/src#g
+omit_lines  ->  .+?//\s*MY_LINE_EXCLUDE_MARKER\s*
+omit_lines  ->  .+?//\s*MY_PROJECT_EXCLUDE_MARKER\s*
+erase_functions  ->  main
+erase_functions  ->  debug)_.*\(int,\s*int\)
+version_script  ->  path_to_my_executable
+lcov_json_module  ->  auto
+parallel  ->  1
+memory  ->  1024
+split_char  ->  ,
+case_insensitive  ->  0
+lcov_excl_line  ->  LCOV_EXCL_LINE
+lcov_excl_br_line  ->  LCOV_EXCL_BR_LINE
+lcov_excl_exception_br_line  ->  LCOV_EXCL_EXCEPTION_BR_LINE
+lcov_excl_start  ->  LCOV_EXCL_START
+lcov_excl_stop  ->  LCOV_EXCL_STOP
+lcov_excl_br_start  ->  LCOV_EXCL_BR_START
+lcov_excl_br_stop  ->  LCOV_EXCL_BR_STOP
+lcov_excl_exception_br_start  ->  LCOV_EXCL_EXCEPTION_BR_START
+lcov_excl_exception_br_stop  ->  LCOV_EXCL_EXCEPTION_BR_STOP
+name: root, gid: 0
+name: bin, gid: 1
+name: daemon, gid: 2
+name: sys, gid: 3
+name: adm, gid: 4
+name: tty, gid: 5
+name: disk, gid: 6
+name: lp, gid: 7
+name: mem, gid: 8
+name: kmem, gid: 9
+name: cdrom, gid: 11
+name: mail, gid: 12
+name: man, gid: 15
+name: dialout, gid: 18
+name: floppy, gid: 19
+name: games, gid: 20
+name: tape, gid: 33
+name: video, gid: 39
+name: ftp, gid: 50
+name: lock, gid: 54
+name: audio, gid: 63
+name: users, gid: 100
+name: nobody, gid: 65534
+name: dbus, gid: 81
+name: apache, gid: 48
+name: utmp, gid: 22
+name: utempter, gid: 35
+name: tss, gid: 59
+name: printadmin, gid: 999
+name: input, gid: 104
+name: kvm, gid: 36
+name: render, gid: 105
+name: sgx, gid: 106
+name: systemd-journal, gid: 190
+name: systemd-coredump, gid: 998
+name: systemd-network, gid: 192
+name: systemd-oom, gid: 997
+name: systemd-resolve, gid: 193
+name: systemd-timesync, gid: 996
+name: qemu, gid: 107
+name: polkitd, gid: 114
+name: avahi, gid: 70
+name: brlapi, gid: 995
+name: dip, gid: 40
+name: geoclue, gid: 994
+name: nm-openconnect, gid: 993
+name: usbmuxd, gid: 113
+name: gluster, gid: 992
+name: jackuser, gid: 991
+name: rtkit, gid: 172
+name: pipewire, gid: 990
+name: saslauth, gid: 76
+name: chrony, gid: 989
+name: dnsmasq, gid: 988
+name: rpc, gid: 32
+name: rpcuser, gid: 29
+name: openvpn, gid: 987
+name: nm-openvpn, gid: 986
+name: colord, gid: 985
+name: unbound, gid: 984
+name: abrt, gid: 173
+name: flatpak, gid: 982
+name: gdm, gid: 42
+name: gnome-initial-setup, gid: 981
+name: vboxsf, gid: 980
+name: power, gid: 979
+name: sshd, gid: 74
+name: tcpdump, gid: 72
+name: plocate, gid: 978
+name: gamemode, gid: 977
+name: clevis, gid: 976
+name: dhcpcd, gid: 975
+name: usbmon, gid: 973
+name: openvswitch, gid: 972
+name: hugetlbfs, gid: 971
+name: akmods, gid: 970
+name: bird, gid: 969
+name: wsdd, gid: 968
+name: gnome-remote-desktop, gid: 967
+name: passim, gid: 966
+name: stapusr, gid: 156
+name: stapsys, gid: 157
+name: stapdev, gid: 158
+name: stapunpriv, gid: 159
+name: Verbosity = 0, gid: 
+name: Domain = local.domain.edu, gid: 
+name: No-Strip = none, gid: 
+name: Reformat-Group = false, gid: 
+name: Local-Realms = , gid: 
+name: Nobody-User = nobody, gid: 
+name: Nobody-Group = nobody, gid: 
+name: Method = nsswitch, gid: 
+name: GSS-Methods = <alternate method list for translating GSS names>, gid: 
+name: someuser@REALM = localuser, gid: 
+name: LDAP_server = ldap-server.local.domain.edu, gid: 
+name: LDAP_base = dc=local,dc=domain,dc=edu, gid: 
+name: LDAP_canonicalize_name = true, gid: 
+name: LDAP_people_base = <LDAP_base>, gid: 
+name: LDAP_group_base = <LDAP_base>, gid: 
+name: LDAP_follow_referrals = true, gid: 
+name: LDAP_use_ssl = false, gid: 
+name: LDAP_tls_reqcert = "hard", gid: 
+name: LDAP_ca_cert = /etc/ldapca.cert, gid: 
+name: LDAP_sasl_mech = <SASL mech>, gid: 
+name: LDAP_sasl_realm = <SASL realm>, gid: 
+name: LDAP_sasl_authcid = <SASL authcid>, gid: 
+name: LDAP_sasl_authzid = <SASL authzid>, gid: 
+name: LDAP_sasl_secprops = <secprops>, gid: 
+name: LDAP_sasl_krb5_ccname = <kerberos ticket cache>, gid: 
+name: NFSv4_person_objectclass = NFSv4RemotePerson, gid: 
+name: NFSv4_name_attr = NFSv4Name, gid: 
+name: NFSv4_uid_attr = UIDNumber, gid: 
+name: GSS_principal_attr = GSSAuthName, gid: 
+name: NFSv4_acctname_attr = uid, gid: 
+name: NFSv4_group_objectclass = NFSv4RemoteGroup, gid: 
+name: NFSv4_gid_attr = GIDNumber, gid: 
+name: NFSv4_group_attr = NFSv4Name, gid: 
+name: NFSv4_member_attr = memberUID, gid: 

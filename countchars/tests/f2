@@ -1,0 +1,30 @@
+Exercise 1. In a source file called countchars.c write a C program that counts the occur-
+rences of a set of target characters in a set of files or in the standard input. The program
+reads all its parameters from the command line. The first parameter is a string containing
+the set of target characters that must be counted. If there are no command-line parameters
+or if the first parameter is an empty string, then the program must output the error mes-
+sage “No target characters specified.” in a single output line, and then terminate.
+If there are no more command-line parameters after the string of target characters, then
+the program must count the target characters from the standard input. Otherwise, all the
+command-line parameters after the first one are interpreted as input file names, which
+means that the program must count the target characters from all the given files.
+For each input file, either named files or the standard input, the program must output a
+single line in the following format:
+filename c 1 :n 1 c 2 :n 2 c 3 :n 3 . . .
+Where filename is the name of the file, or “(stdin)” for the standard input, and c i and
+n i are the i-th target character and the number of times that that character appears in the
+input file. If there is any error in opening or reading the file, then the output should be
+“Error reading file filename”. After an error, the program mut continue normally with
+the remaining files, if any.
+The term character here corresponds to an object of type char in C. This means that the
+program interprets the target string (first command-line argument) as a simple C-string
+representing a sequence of bytes. In other words, the program must consider each individ-
+ual byte in that string as a target character, and must therefore count the occurrences of
+that byte in each input file.
+Hint: recall that a char is an integer numeric type, so a char object has a numeric value.
+Recall also that the range of integer values for a char object is implementation-defined and
+may be negative. You should instead interpret those char values as unsigned byte values,
+since those are the values you get from a function line fgetc when you read the input. One
+way to convert a command-line argument as a string of unsigned byte values is as follows:
+const unsigned char * target = (const unsigned char *)argv[1];
+With that, you can now use the target characters as unsigned byte values.

@@ -1,0 +1,100 @@
+genhtml -> css
+genhtml -> dark
+genhtml -> header = Coverage report for my project
+genhtml -> footer = My footer text
+genhtml -> hi
+genhtml -> med
+ignore -> errors = empty,mismatch
+max -> message
+stop -> on
+rtl -> file
+c -> file
+filter -> lookahead = 5
+filter -> bitwise
+genhtml -> line
+genhtml -> branch
+genhtml -> owner
+genhtml -> age
+genhtml -> overview
+genhtml -> nav
+genhtml -> nav
+genhtml -> keep
+genhtml -> no
+genhtml -> no
+genhtml -> num
+genhtml -> highlight = 0
+genhtml -> legend = 0
+genhtml -> html
+genhtml -> html
+genhtml -> html
+genhtml -> html
+genhtml -> sort = 1
+genhtml -> hierarchical = 1
+genhtml -> flat
+genhtml -> show
+genhtml -> show
+genhtml -> charset=UTF-8
+genhtml -> desc
+genhtml -> precision=1
+genhtml -> missed=1
+suppress -> function
+derive -> function
+derive -> function
+trivial -> function
+demangle -> cpp = c++filt
+genhtml -> demangle
+genhtml -> demangle
+geninfo -> gcov
+geninfo -> adjust
+forget -> testcase
+checksum = 1 -> 
+geninfo -> external = 1
+geninfo -> compat
+geninfo -> gcov
+geninfo -> unexecuted
+geninfo -> compat = libtool=on, hammer=auto, split
+geninfo -> adjust
+geninfo -> auto
+geninfo -> intermediate = auto
+no -> exception
+lcov -> insmod
+lcov -> modprobe
+lcov -> rmmod
+lcov -> tmp
+lcov -> list
+lcov -> list
+lcov -> list
+function -> coverage = 1
+branch -> coverage = 0
+lcov -> fail
+genhtml -> annotate
+genhtml -> criteria
+criteria -> callback
+criteria -> callback
+genhtml -> date
+genhtml -> date
+include = my/files/*.c -> 
+include = my/files/*.h -> 
+exclude = your/files/*.c -> 
+exclude = your/files/*.h -> 
+substitute = s#/.libs##g -> 
+substitute = s#/tmp/build#/usr/src#g -> 
+omit -> lines = .+?//\s*MY
+omit -> lines = .+?//\s*MY
+erase -> functions = main
+erase -> functions = debug)
+version -> script = path
+lcov -> json
+parallel = 1 -> 
+memory = 1024 -> 
+split -> char = ,
+case -> insensitive = 0
+lcov -> excl
+lcov -> excl
+lcov -> excl
+lcov -> excl
+lcov -> excl
+lcov -> excl
+lcov -> excl
+lcov -> excl
+lcov -> excl
